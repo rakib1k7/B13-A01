@@ -125,3 +125,109 @@ nav button{
 .btn-outline:hover {
   background-color: rgba(255,255,255,0.1);
 }
+
+.hero{
+  width: 1600px;
+  height: 448px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2px;
+}
+.hero-container{
+    width: 1353px;
+    max-width: 1353px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.hero-header h3{
+    font-size: 48px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.hero-header p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.card-box {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+  
+}
+
+.card-box .card {
+       /* border: 2px solid blue; */
+       height: 300px;
+       width: 322px;
+       background-color: #FFFFFF;
+       box-shadow: 1px 1px 8px;
+       border-radius: 8px;
+       text-align: center;
+       
+}
+
+.card-box .icon {
+  filter:brightness(0) saturate(100%)
+        invert(57%)
+        sepia(78%)
+        saturate(3850%)
+        hue-rotate(330deg)
+        brightness(102%)
+        contrast(101%);;
+}
+
+
+.card-box h3{
+  
+}
+
+.brain{
+  width: 1600px;
+  height: 840px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  padding: 2px;
+}
+.brain-container{
+    width: 1353px;
+    max-width: 1353px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+.brain-header img{
+  height: 600px;
+  width: 600px;
+}
+.brain-text{
+  margin: 102px 0px 60px;
+}
+.brain-text p{
+  font-size: 16px;
+  color: #469165;
+  padding-bottom: 16px;
+}
+
+.brain-text h3{
+  font-size: 68px;
+  color: #001931;
+  padding-bottom: 16px;
+}
+
+.brain-text .paragraph{
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 40px;
+}
+.Circle{
+  padding-top: 2px;
+}
+
