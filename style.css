@@ -89,18 +89,18 @@ nav button{
   color: #cbd5e1;
   margin-bottom: 32px;
 }
-.banner-buttons{
+.banner-button{
   display: flex;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 .banner-button{
   padding: 14px 28px;
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.2s ease;
   gap: 16px;
 }
 .btn-primary {
@@ -109,6 +109,13 @@ nav button{
   border: none;
   width: 252px;
   height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 auto;
 }
 
 .btn-primary:hover {
@@ -120,6 +127,7 @@ nav button{
   border: 2px solid rgba(255,255,255,0.6);
   width: 252px;
   height: 52px;
+  cursor: pointer;
 }
 
 .btn-outline:hover {
@@ -160,16 +168,25 @@ nav button{
     margin: 0 auto;
   
 }
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .card-box .card {
        /* border: 2px solid blue; */
        height: 300px;
-       width: 322px;
        background-color: #FFFFFF;
        box-shadow: 1px 1px 8px;
        border-radius: 8px;
        text-align: center;
-       
+       gap: ;
+       display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-box .icon {
@@ -229,5 +246,90 @@ nav button{
 }
 .Circle{
   padding-top: 2px;
+}
+
+.think{
+  width: 1600px;
+  height: 506px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.think-content{
+  height: 380px ;
+  background-color: #F7F6F2;
+  width: 1353px;
+  max-width: 1353px;
+  align-items: center;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.think-header h3{
+   font-size: 40px;
+   color: #001931;
+  padding-bottom: 16px;
+}
+.think-header p{
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 16px;
+}
+.think-button button{
+  width:194px ;
+  height:52px ;
+  background-color: #469165;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.think-button button:hover{
+  background-color: #001931;
+}
+
+.think-button p{
+   color: #627382;
+   font-size: 16px;
+   margin-top: 16px;
+}
+
+footer{
+  width: 1600px;
+  height: 348px;
+  background-color: #001931;
+  color: #FFFFFF;
+}
+.fotter-content{
+  width: 1360px;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+.fotter-description {
+    width: 1360px;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.fotter-description p{
+  font-size: 16px;
+  color: #FAFAFA;
 }
 
